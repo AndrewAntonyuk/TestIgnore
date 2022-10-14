@@ -1,6 +1,6 @@
 package geometry;
 
-public class Triangle extends Shape implements ShapeFunc {
+public class Triangle implements Shape {
     private Double base;
     private Double verticalHeight;
 
@@ -23,11 +23,7 @@ public class Triangle extends Shape implements ShapeFunc {
     //endregion
 
     //region Constructors
-    public Triangle() {
-        name = "Triangle";
-    }
     public Triangle(Double base, Double verticalHeight) {
-        this();
         this.base = base;
         this.verticalHeight = verticalHeight;
     }

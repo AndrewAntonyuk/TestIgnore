@@ -1,6 +1,6 @@
 package geometry;
 
-public class Square extends Shape implements ShapeFunc{
+public class Square implements Shape {
     private Double side;
 
     //region Getters/Setters
@@ -14,11 +14,7 @@ public class Square extends Shape implements ShapeFunc{
     //endregion
 
     //region Constructors
-    public Square() {
-        name = "Square";
-    }
     public Square(Double side) {
-        this();
         this.side = side;
     }
     //endregion
